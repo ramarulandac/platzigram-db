@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict'
 
 const test = require('ava')
@@ -33,6 +34,8 @@ test('encrypt password', t => {
   t.is(result, encrypted)
 })
 =======
+=======
+>>>>>>> 88f246d9c9eebd7a8706c3a34390c8944b0f4ee3
 'use strict'
 
 const test = require('ava')
