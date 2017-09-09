@@ -1,0 +1,33 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "platzigram Data Base Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramarulandac/platzigram-db.git"
+  },
+  "author": "René Marulanda <rene.marulanda@gmail.com> (https://twitter.com/MaruloRenacuajo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramarulandac/platzigram-db/issues"
+  },
+  "homepage": "https://github.com/ramarulandac/platzigram-db#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "co": "^4.6.0",
+    "rethinkdb": "^2.3.3",
+    "uuid-base62": "^0.1.0"
+  }
+}
